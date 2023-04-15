@@ -26,7 +26,7 @@ def get_highlights(email, password):
 
 
     print("getting driver---------------")
-    driver.get('https://read.amazon.com/kp/notebook')
+    driver.get('https://read.amazon.co/kp/notebook')
     print(driver.title)
 
     email_input = driver.find_element(By.XPATH, '//*[@id="ap_email"]')
